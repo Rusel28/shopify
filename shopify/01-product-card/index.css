@@ -1,0 +1,248 @@
+.content {
+    width: 1920px;
+    height: 694px;
+    background: #E5E5E5;
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+
+.container {
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.content__inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.content__title {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 40px 0 0 0;
+}
+
+
+.content__items-wrap {
+    display: flex;
+    gap: 20px;
+}
+
+.content__item {
+    width: 380px;
+    min-height: 480px;
+    border-radius: 12px;
+    background: #fff;
+    box-shadow: 7px 12px 20px 0 #7c7c7c;
+}
+
+.content__item-top {
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.content__item-notifys {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    gap: 17px;
+    color: #2F2F2F;
+    margin: 16px;
+}
+
+.content__item-notify-new, .content__item-notify-last {
+    border-radius: 8px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: none;
+}
+
+.content__item-notify-new {
+    width: 110px;
+    height: 24px;
+    background: #FDCFF3;
+}
+
+.content__item-notify-last {
+    width: 134px;
+    height: 24px;
+    background: #FFCF56;
+}
+
+.active {
+    display: block;
+}
+
+.content__item-image {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+}
+
+.content__item-info {
+    width: 332px;
+    min-height: 230px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    color: #2F2F2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content__item-title {
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 900;
+}
+
+
+.content__item-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.content__item-btn {
+    width: 100%;
+    height: 48px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border-radius: 8px;
+    color: #42940F;
+    font-weight: 900;
+    font-size: 18px;
+    border: 2px solid #42940F;
+}
+
+.content__item-btn:hover {
+    background: #42940F;
+    color: #FFF;
+}
+
+.content__item-btn:active {
+    background: #1F5200;
+    border: 2px solid #1F5200;
+    color: #FFF;
+}
+
+.content__item-btn:disabled {
+    background: #4E4E4E;
+    border: 1px solid #4E4E4E;
+    color: #FFFFFF;
+}
+
+
+
+
+
+/*----------------1400px--------------------*/
+@media screen and (max-width: 1400px) {
+    .content {
+      width: 1400px;
+    }
+  
+    .container {
+      width: 1320px;
+    }
+  }
+  
+  /*----------------1200px--------------------*/
+  @media screen and (max-width: 1200px) {
+    .content {
+      width: 1200px;
+    }
+  
+    .container {
+      width: 980px;
+    }
+  
+    .content__title {
+      font-size: 40px;
+      font-weight: 900;
+      margin: 30px 0 0 0;
+    }
+  
+    .content__item {
+      width: 330px;
+      min-height: 460px;
+      border-radius: 12px;
+      background: #fff;
+  
+    }
+  
+  
+    .content__item-info {
+      width: 300px;
+      min-height: 230px;
+      margin: 0 auto;
+      margin-bottom: 16px;
+      color: #2F2F2F;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+  
+  }
+  
+  /*--------------992px-----------------*/
+  
+  @media screen and (max-width: 992px) {
+    .content {
+      width: 900px;
+      height: 100%;
+    }
+  
+    .container {
+      width: 800px;
+    }
+  
+    .content__items-wrap {
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 20px;
+      gap: 20px;
+    }
+  }
+  
+  
+  /*---------------768px----------------*/
+  
+  @media screen and (max-width: 768px) {
+  
+    .content {
+      width: 700px;
+    }
+  
+    .container {
+      width: 500px;
+    }
+  }
+  
+  /*---------------576px----------------*/
+  
+  @media screen and (max-width: 576px) {
+    .content {
+      width: 90%;
+    }
+  
+    .container {
+      width: 90%;
+  
+    }
+  
+    .content__title {
+      font-size: 30px;
+      font-weight: 900;
+      margin: 20px 0 0 0;
+    }
+  }
